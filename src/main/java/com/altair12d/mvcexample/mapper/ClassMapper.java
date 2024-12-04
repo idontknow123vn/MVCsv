@@ -15,6 +15,7 @@ public class ClassMapper {
         ClassDto classDto = new ClassDto();
         classDto.setId(classEntity.getId());
         classDto.setName(classEntity.getName());
+        classEntity.setStudentList(classEntity.getStudentList());
         return classDto;
     }
 }
